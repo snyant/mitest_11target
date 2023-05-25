@@ -1,0 +1,11 @@
+git init  --->initializes a brand new Git repository
+git clone <repo path>  ----->creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.
+git status --> shows the status of changes as untracked, modified, or staged
+git add --->stages a change
+git commit -m "commit message"  --->saves the snapshot to the project history
+git push origin <branch name>
+git pull origin <branchname>
+git branch  --->shows the branches being worked on locally
+git branch <branchname> --->created a new branch
+git branch -d <branchname> ---->deletes the branch
+git checkout <branchname>  ----->switching to another branch
